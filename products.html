@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase | Products</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">ShopEase</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+<section class="products">
+
+    <h1>Our Products</h1>
+<div class="product-card">
+
+    <span class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </span>
+
+    <img src="phone.jpeg" alt="Phone">
+
+    <h3>Smart Phone</h3>
+
+    <div class="rating">
+        ★★★★★
+    </div>
+
+    <p class="price">₹29,999</p>
+
+    <button onclick="addToCart('Smart Phone',29999)">
+    Add to Cart
+</button>
+
+</div>
+    <div class="product-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500" alt="Phone">
+
+            <h3>Smart Phone</h3>
+
+            <p>₹29,999</p>
+<button onclick="addToCart('Smart Phone',29999)">
+    Add to Cart
+</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="laptop.jpeg" alt="Laptop">
+
+            <h3>Laptop</h3>
+
+            <p>₹59,999</p>
+
+          <button onclick="addToCart('Laptop',59999)">
+    Add to Cart
+</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="Headphones">
+
+            <h3>Headphones</h3>
+
+            <p>₹2,999</p>
+
+           <button onclick="addToCart('Headphones',2999)">
+    Add to Cart
+</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="Watch">
+
+            <h3>Smart Watch</h3>
+
+            <p>₹4,999</p>
+<button onclick="addToCart('Smart Watch',4999)">
+    Add to Cart
+</button>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="js/products.js"></script>
+
+</body>
+</html>
